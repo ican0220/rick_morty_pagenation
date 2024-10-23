@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ApolloProvider, useQuery } from '@apollo/client';
 import { GET_CHARACTERS } from './queries';
 import client from './apolloClient';
+import './index.css';
 
 interface Character {
   id: string;
